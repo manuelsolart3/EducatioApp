@@ -1,0 +1,87 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="290dp"
+    android:layout_height="230dp"
+    android:layout_margin="29dp"
+    android:outlineProvider="bounds"
+    android:clipToOutline="true"
+    android:elevation="80dp"
+
+
+
+
+    app:cardBackgroundColor="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/splashLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+        <!-- Agregar el ImageView para la "x" -->
+        <ImageView
+            android:id="@+id/imageViewClose"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/cierre"
+            android:contentDescription="Cerrar"
+           />
+
+
+        <ImageView
+            android:id="@+id/imageViewIcon"
+            android:layout_width="480dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/archivo"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="¡Bienvenido!"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Para ser docente debes subir tu hoja de vida."
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:fontFamily="serif"/>
+
+        <Button
+            android:id="@+id/subirHoja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Subir Hoja de Vida"
+            android:textColor="@android:color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+
+            android:drawablePadding="8dp"
+            android:onClick="uploadDocument" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

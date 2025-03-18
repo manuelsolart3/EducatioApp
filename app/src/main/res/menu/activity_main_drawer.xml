@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Home_Fragment"
+            android:icon="@drawable/homecasita"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/solicitar_clase"
+            android:icon="@drawable/solic"
+            android:title="@string/solicitar" />
+        <item
+            android:id="@+id/perfil_usuario"
+            android:icon="@drawable/profile"
+            android:title="@string/perfil_usuario" />
+        <item
+            android:id="@+id/mis_clases"
+            android:icon="@drawable/calendario"
+            android:title="@string/mis_clases" />
+        <item
+            android:id="@+id/postulacion_docente"
+            android:icon="@drawable/postular"
+            android:title="@string/postulacion" />
+        <item
+            android:id="@+id/mis_clases_docente"
+            android:icon="@drawable/calendario"
+            android:title="@string/mis_clases" />
+        <item
+            android:id="@+id/perfil_docente"
+            android:icon="@drawable/profile"
+            android:title="@string/perfil_usuario"
+            />
+        <item
+            android:id="@+id/ser_docente"
+            android:title="@string/btn_docente"
+            android:icon="@drawable/cam2"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/ser_usuario"
+            android:title="@string/btn_usuario"
+            android:icon="@drawable/cam1"
+            app:showAsAction="always" />
+    </group>
+    <!-- Elemento de menú para el botón "Ser Docente" -->
+
+
+
+</menu>

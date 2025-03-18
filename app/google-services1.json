@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921775795699",
+    "project_id": "cargar-imagenes-yt-e6d7a",
+    "storage_bucket": "cargar-imagenes-yt-e6d7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921775795699:android:765f146577d14418e67686",
+        "android_client_info": {
+          "package_name": "com.jhon.educatioapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_BlV_sdBPqSzL1TVjWLWhNbe-R7TIF60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

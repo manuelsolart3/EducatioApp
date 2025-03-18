@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewFechaClase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04 MAR"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cardViewClase" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewClase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@id/textViewFechaClase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvNotificacionTituloClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clase programada"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewEmailClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Correo: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewNameClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Nombre:"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewValorClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="$: 00000"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewMateriaClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Materia: Matemáticas"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewTemaClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tema: Álgebra"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewHoraInicioClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Hora Inicio: 10:00"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewHoraFinClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Hora Fin: 12:00"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textViewModalidadClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Modalidad: Presencial"
+                android:textColor="@android:color/black" />
+
+            <!-- Botón para cancelar -->
+            <Button
+                android:id="@+id/btnCancelarClase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_button"
+                android:text="Cancelar"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

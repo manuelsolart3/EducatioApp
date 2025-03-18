@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Educatio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Educatio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="cerrarsesion">Cerrar Sesion</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="registro">Registro</string>
+    <string name="login">Login</string>
+    <string name="solicitar">Solicitar Clase</string>
+    <string name="perfil_usuario">Perfil</string>
+    <string name="mis_clases">Mis Clases</string>
+    <string name="postulacion">Postulaciones</string>
+    <string name="btn_docente">Ser Docente</string>
+    <string name="btn_usuario">Ser Estudiante</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_"></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="clase">clase</string>
+    <string name="close_button">close_button</string>
+    <string name="texto_nombre"><![CDATA[<b>Nombre:</b> juanito]]></string>
+</resources>

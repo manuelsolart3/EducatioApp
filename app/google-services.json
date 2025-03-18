@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "6531316804",
+    "project_id": "prueba-clase-educatio",
+    "storage_bucket": "prueba-clase-educatio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6531316804:android:151025330b0831c9a75011",
+        "android_client_info": {
+          "package_name": "com.example.tablaclase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9TmqYZ-4Y84T8Zm7Sm3yBxRUqeqjK-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6531316804:android:a24ec91c54d5b828a75011",
+        "android_client_info": {
+          "package_name": "com.jhon.educatioapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI9TmqYZ-4Y84T8Zm7Sm3yBxRUqeqjK-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

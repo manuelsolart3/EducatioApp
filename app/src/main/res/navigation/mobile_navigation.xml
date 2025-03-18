@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/Home_Fragment">
+
+
+    <!-- Navegacion Usuario -->
+    <fragment
+        android:id="@+id/Home_Fragment"
+        android:name="com.jhon.educatioapp.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/solicitar_clase"
+        android:name="com.jhon.educatioapp.fragments.SolicitarFragment"
+        android:label="@string/solicitar"
+        tools:layout="@layout/fragment_solicitar__clase" />
+    <fragment
+        android:id="@+id/perfil_usuario"
+        android:name="com.jhon.educatioapp.fragments.PerfilUsuarioFragment"
+        android:label="@string/perfil_usuario"
+        tools:layout="@layout/fragment_perfil__usuario" />
+    <fragment
+        android:id="@+id/mis_clases"
+        android:name="com.jhon.educatioapp.fragments.MisClasesFragment"
+        android:label="@string/mis_clases"
+        tools:layout="@layout/fragment_mis_clases" />
+    <!-- Navegacion Docente -->
+    <fragment
+        android:id="@+id/mis_clases_docente"
+        android:name="com.jhon.educatioapp.fragments.MisClasesDocenteFragment"
+        android:label="@string/mis_clases"
+        tools:layout="@layout/fragment_mis_clases_docente" />
+    <fragment
+        android:id="@+id/perfil_docente"
+        android:name="com.jhon.educatioapp.fragments.PerfilDocente"
+        android:label="@string/perfil_usuario"
+        tools:layout="@layout/fragment_perfil_docente" />
+    <fragment
+        android:id="@+id/postulacion_docente"
+        android:name="com.jhon.educatioapp.fragments.PostulacionDocenteFragment"
+        android:label="@string/postulacion"
+        tools:layout="@layout/fragment_postulacion_docente" />
+
+    <!--Navegacion Activitys Login y Registro-->
+
+    <activity
+        android:id="@+id/activity_registro"
+        android:name="com.jhon.educatioapp.controllers.RegistroActivity"
+        android:label="@string/registro"
+        tools:layout="@layout/activity_registro" />
+
+    <activity
+        android:id="@+id/activity_login"
+        android:name="com.jhon.educatioapp.controllers.LoginActivity"
+        android:label="@string/login"
+        tools:layout="@layout/activity_login" />
+    <action
+        android:id="@+id/action_solicitarFragment_to_homeFragment"
+        app:destination="@id/Home_Fragment" />
+
+
+
+</navigation>

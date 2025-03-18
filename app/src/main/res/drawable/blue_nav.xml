@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Color de fondo -->
+    <solid android:color="@color/principal" /> <!-- Puedes cambiar el color a tu gusto -->
+
+    <!-- Círculos de diseño -->
+    <corners android:bottomRightRadius="50dp" android:bottomLeftRadius="50dp" /> <!-- Ajusta el valor para cambiar el radio de los círculos -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" /> <!-- Ajusta el valor para cambiar el espaciado entre los círculos y el borde -->
+</shape>
