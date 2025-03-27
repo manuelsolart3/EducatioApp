@@ -6,7 +6,7 @@
 <h1 align="center">📚 EDUCATE CON EDUCATIO 📚</h1>
 
 <p align="center">
-  <strong>La plataforma definitiva para conectar estudiantes y docentes.</strong><br>
+  <strong>La Aplicación definitiva para conectar estudiantes y docentes.</strong><br>
   🎯 Encuentra clases de cualquier tipo, ajusta el precio y elige el mejor horario.  
   📅 Los docentes pueden aceptar, contraofertar y gestionar sus clases fácilmente.
 </p>
