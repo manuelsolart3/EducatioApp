@@ -37,7 +37,10 @@ Educatio no solo es una app móvil 📱
 ---
 
 ## **🖼️ Vista previa de la aplicación**
-Una experiencia moderna, intuitiva y eficiente. 🎨✨  
+<p align="left">
+  <strong>La idea de Educatio surgió de una necesidad personal que experimenté cuando estaba en el colegio. Como muchos estudiantes, me enfrenté a dificultades académicas y me di cuenta de que las clases regulares no siempre eran suficientes para superar mis desafíos. Sin embargo, encontrar clases personalizadas fuera del horario establecido resultaba ser todo un desafío. Esta frustración me llevó a reflexionar sobre la necesidad de una plataforma que conectara a estudiantes como yo con profesores dispuestos a ofrecer clases personalizadas según nuestras necesidades y horarios. Así nació la visión de Educatio, una solución innovadora para hacer que la educación personalizada sea más accesible y conveniente para todos 
+</p>
+
 
 <!-- Organización en 2x2 -->
 
